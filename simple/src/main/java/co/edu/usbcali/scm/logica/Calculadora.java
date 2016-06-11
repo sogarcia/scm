@@ -51,7 +51,7 @@ public class Calculadora implements ICalculadora {
 		System.out.println("Resultado: "+getOperacion() +" "+ getResult());
 	}
 	
-	public static void main(String args[]){
+	/*public static void main(String args[]){
 		String numero1 = JOptionPane.showInputDialog("Ingrese numero 1: "  );
 		String numero2 = JOptionPane.showInputDialog("Ingrese numero 2: "  );
 		
@@ -59,7 +59,7 @@ public class Calculadora implements ICalculadora {
 		c.sumar(Integer.parseInt(numero1), Integer.parseInt(numero2));
 		
 		//JOptionPane.showMessageDialog(null,c.imprimir(),null,null);
-	}
+	}*/
 	
 
 }
